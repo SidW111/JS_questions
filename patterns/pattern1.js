@@ -1,7 +1,7 @@
-let outterStr = ""
+
 let innerStr = ""
 for(let i=1; i<5;i++){
-    outterStr += i;
+  
     for(let i=1;i<5;i++){
        innerStr += i;
     }
@@ -9,5 +9,9 @@ for(let i=1; i<5;i++){
     
     innerStr = ''
 }
-console.log(outterStr)
 
+
+//1234
+//1234
+//1234
+//1234
