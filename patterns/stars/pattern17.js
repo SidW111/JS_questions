@@ -4,11 +4,9 @@ for (let i = 0; i < n; i++) {
   let inner = "";
 
   for (let j = 0; j < i + 1; j++) {
-    inner += "*";
+    inner += "* ";
   }
-//   for (let j = n-i; j > 0; j--) {
-//     inner += "*";
-//   }
+
   console.log(inner);
   inner = "";
 }
@@ -16,22 +14,19 @@ for (let i = 0; i < n; i++) {
 for (let i = 0; i < n; i++) {
   let inner = "";
 
-//   for (let j = 0; j < i + 1; j++) {
-//     inner += "*";
-//   }
   for (let j = n-i-1; j > 0; j--) {
-    inner += "*";
+    inner += "* ";
   }
   console.log(inner);
   inner = "";
 }
 
-// *
-// **
-// ***
-// ****
-// *****
-// ****
-// ***
-// **
+// *    
+// * *   
+// * * *  
+// * * * * 
+// * * * * * 
+// * * * * 
+// * * * 
+// * * 
 // *
