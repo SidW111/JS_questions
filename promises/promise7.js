@@ -1,4 +1,11 @@
-async function test() {
-  return "Hello";
-}
-test().then((res) => console.log(res));
+console.log("A");
+
+setTimeout(() => console.log("B"), 0);
+
+Promise.resolve().then(() => console.log("C"));
+
+queueMicrotask(() => console.log("D"));
+
+console.log("E");
+
+//  A E C D B
