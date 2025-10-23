@@ -1,7 +1,8 @@
-
-
-let n = 50;
-
-for (let i = 0; i <= n; i++) {
-  console.log(i);
+function makeAdder(x) {
+  return function(y) {
+    return x + y;
+  };
 }
+const add5 = makeAdder(5);
+const add10 = makeAdder(10);
+console.log(add5(2), add10(2));
