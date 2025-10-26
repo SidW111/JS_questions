@@ -1,5 +1,7 @@
-let n = 10;
-
-for(let i=0;i<n;i++){
-    console.log(i);
+let str = "SId";
+let lowerc;
+for (const s of str) {
+  lowerc = str.toLowerCase();
 }
+
+console.log(lowerc);
