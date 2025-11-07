@@ -11,7 +11,6 @@
 //   { age: 28 },
 // ];
 
-
 // //solution
 
 // const sameAge = users.reduce((acc,curr)=>{
