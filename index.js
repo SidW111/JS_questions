@@ -9,4 +9,4 @@
 
 const navigato= navigator.userAgent
 
-console.log(navigato)
+console.log(navigator)
